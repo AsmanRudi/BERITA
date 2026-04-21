@@ -1,0 +1,23 @@
+.news-app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.news-item {
+    width: 500px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20PX;
+}
+
+.news-imgae {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+
+}
